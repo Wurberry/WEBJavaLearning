@@ -1,5 +1,6 @@
 package com.ComparatorTests;
 
+import javax.management.monitor.Monitor;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -25,8 +26,6 @@ public class ComporatorMain {
         Collections.sort(cars, speedComparator);
 
         ComporatorMain.PrintCarsInfo(cars);
-
-
 
     }
 
